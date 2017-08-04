@@ -203,6 +203,7 @@ With a PL tone of 114.8 Hz, on the 70cm band, this repeater has been replaced wi
 https://www.radioreference.com/apps/db/?ctid=1336
 https://www.radioreference.com/apps/db/?aid=2541
 
+```
 NOAA Weather 162.540
 
 Frequency	Tone	Location	County	Call	 Use	Operational status
@@ -225,6 +226,7 @@ Frequency	Tone	Location	County	Call	 Use	Operational status
 444.7250+	100.0	Minneapolis	Hennepin	KD5DLJ	OPEN	OFF-AIR
 444.8750+	DSTR	Minneapolis	Hennepin	KD0JOU	OPEN	ON-AIR
 1283.3000-	DSTR	Minneapolis	Hennepin	KD0JOU	OPEN	ON-AIR
+```
 
 dump1090 snippet for logging flights to CSV (courtesy of @schwanksta):
 ```
