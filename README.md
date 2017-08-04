@@ -9,6 +9,7 @@ Columbia University
 
 http://github.com/jonkeegan/exploring-the-spectrum
 http://bit.ly/radio-news
+Etherpad: https://etherpad.opennews.org/p/SRCCON2017-radio-spectrum
 -------------------------------------
 
 ### Quick plug for where I work:
