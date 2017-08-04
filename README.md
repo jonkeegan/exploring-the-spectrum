@@ -1,5 +1,5 @@
-#Exploring the Radio Spectrum for News
-SRCCON 2017 * Friday August 4, 2017
+# Exploring the Radio Spectrum for News
+SRCCON 2017 - Friday August 4, 2017
 Minneapolis, MN
 -------------------------------------
 Jon Keegan   @jonkeegan
@@ -11,7 +11,7 @@ http://github.com/jonkeegan/exploring-the-spectrum
 http://bit.ly/radio-news
 -------------------------------------
 
-###Quick plug for where I work:
+### Quick plug for where I work:
 The Tow Center for Digital Journalism
 * Based at Columbia University’s Graduate School of Journalism
 * Provide journalists with skills and knowledge to lead the future of digital journalism
@@ -26,7 +26,7 @@ http://towcenter.org
 -------------------------------------
 Whenever I encounter some cool new technology – usually one that has just become very cheap and available – I get very excited about the possibilities and look for ways I can use it in my work. For me this was the case with 3D printing, 3D scanners, cheap thermal cameras and software defined radio. So I am trying to instill in all of you this idea * look for unusual, novel ways to look for story ideas. Sometimes, behind the obvious uses, there are are creative ways technology can be used to tell stories.
 
-###Questions journalists should ask about new technologies
+### Questions journalists should ask about new technologies
 * Who has had access to this technology in the past?
 * How has it been used before?
 * Can this technology be used to tell a story in a new way?
@@ -35,21 +35,21 @@ Whenever I encounter some cool new technology – usually one that has just bec
 -------------------------------------
 So this was exactly what I was thinking when I heard about software defined radio. I first heard about this from my most trusted source for cool technology, my Dad Larry Keegan. He's 88, an electrical engineer, pilot, poet, weather nut and HAM radio operator (WA1PII) among many other things. It immediately struck my imagination, and let me see and understand the radio spectrum in a new, visual way. Because this technology was cheap and pretty easy to use, I now had a very cool lens into this weird invisible world around us – a theme that I keep coming back to in my work.
 
-###Why explore the radio spectrum for news?
+### Why explore the radio spectrum for news?
 
 * When new technologies fall into the hands of journalists, interesting things can happen
 * The radio spectrum is an invisible, crucial national asset that is poorly understood
 * We are surrounded by devices that use the radio spectrum, and it is powering our wireless world
 -------------------------------------
-###FCC Spectrum allocation chart: https://www.ntia.doc.gov/files/ntia/publications/2003-allochrt.pdf
+### FCC Spectrum allocation chart: https://www.ntia.doc.gov/files/ntia/publications/2003-allochrt.pdf
 
 The radio spectrum is huge, confusing and full of mystery. Licenses to use tiny slices of it are auctioned off for billions of dollars by the FCC. It's very tightly regulated and all of this is flying through the air around us. It's pretty crazy to think about. New cars come equipped with dozens of radios aboard, as well as every THING in the Internet of Things. The radio spectrum is powering our futuristic wireless world. This chart shows how carefully these tiny slices are managed so as to not bleed over into one another, which today could have life or death consequences (such as implanted medical devices with radio telemetry, transport navigation and tracking, etc).
 
-Definition: Software defined radio * In a traditional physical radio, hardware components adjust the frequency tuning and modulation of the radio signals for you listening pleasure. In SDR, these components are replaced by software. SDR receivers have an lower and upper tuning frequency limit, and within that, they have a bandwidth of frequency that they can sample all at once. You can slide that bandwidth up or down within the upper and lower limits, and SEE where there is voice or data being transmitted within the swath you are observing.
+Definition: Software defined radio - In a traditional physical radio, hardware components adjust the frequency tuning and modulation of the radio signals for you listening pleasure. In SDR, these components are replaced by software. SDR receivers have an lower and upper tuning frequency limit, and within that, they have a bandwidth of frequency that they can sample all at once. You can slide that bandwidth up or down within the upper and lower limits, and SEE where there is voice or data being transmitted within the swath you are observing.
 
 For a long time, the expensive tools to explore the spectrum were exclusively the domain of technicians, scientists, engineers and HAM radio operators. But with the release of a particular USB TV tuner dongle in Europe (and others like it), things started to change. Hobbyists embraced this cheap ($20) USB stick once they realized they could use its software defined radio capabilities to investigate and visualize a wide swath of the radio spectrum. Open source libraries popped up, waterfall visualizers and signal processing tools quickly appeared on the scene. Today, there is a large, active community of hobbyists and hackers who are using these tools to explore – and sometimes exploit – the radios around us in our daily lives. Many of these spectrum explorers have reversed engineered their garage door openers, or discovered gaping security holes in products designed with the assumption that "civilians" would not have access, nor would they care.
 -------------------------------------
-###Examples of radio spectrum journalism / journalists using SDR data
+### Examples of radio spectrum journalism / journalists using SDR data
 
 Quartz's David Yanofsky built a DIY antenna hooked up to a RaspberryPi to log the ADS-B transmissions from private helicopters flying into the Davos conference in Switzerland.
 https://qz.com/600590/we-brought-an-antenna-to-davos-to-track-private-air-travel-and-heres-what-we-found/
@@ -66,7 +66,7 @@ While not used in a specific story, ProPublica's Jeremy Merrill created a cool S
 http://jeremybmerrill.com/blog/2016/01/flyover.html
 
 -------------------------------------
-###RTL-SDR Dongle (RTL2832U)
+### RTL-SDR Dongle (RTL2832U)
 
 Tune Low (MHz): 24 MHz
 Tune Max (MHz): 1766 MHz
@@ -78,7 +78,7 @@ Price: $20
 
 -------------------------------------
 
-###Some of the things you can observe using SDR (depending on your device / antenna):
+### Some of the things you can observe using SDR (depending on your device / antenna):
 
 * AM/FM radio
 * CB radio
@@ -98,11 +98,12 @@ Price: $20
 * Garage door openers
 * Remote control cars and drones controller signals
 
-Source: Hobbyists Guide to the RTL-SDR [//////////// Add link  /////////////]
+Source: Hobbyists Guide to the RTL-SDR 
+https://www.amazon.com/Hobbyists-Guide-RTL-SDR-Software-Defined-ebook/dp/B00KCDF1QI
 
 -------------------------------------
 
-###Popular SDR Clients
+### Popular SDR Clients
 
 GQRX * Linux / Windows / Mac  / RaspberryPi SDR client
 http://gqrx.dk/
@@ -122,7 +123,7 @@ http://airspy.com/download/
 WebSDR * Browser-based remote SDR server browser. Watch signals from around the world
 http://websdr.org/
 -------------------------------------
-###Related: Amateur radio (aka HAM radio)
+### Related: Amateur radio (aka HAM radio)
 
 If you are geeking out over this and want more, get your Amateur Radio (HAM) license!
 
@@ -140,7 +141,7 @@ http://www.arrl.org/getting-your-technician-license
 Buy this book to prepare for the exam, and learn everything you need to know:
 https://www.amazon.com/ARRL-Ham-Radio-License-Manual/dp/1625950136/ref=sr_1_1?ie=UTF8&qid=1501256686&sr=8-1&keywords=arrl+3rd+edition
 -------------------------------------
-###Buy this cheap Chinese radio for $25
+### Buy this cheap Chinese radio for $25
 BaoFeng UV-5R Dual Band Two Way Radio
 Covers most Amateur bands
 DON’T: Transmit on Police/Fire/EMS frequencies* Very illegal
@@ -149,6 +150,8 @@ DO: Talk to the International Space Station with a handheld, homemade Yagi anten
 BaoFeng UV-5R transceiver (Cheap Ham radio):
 https://www.amazon.com/BaoFeng-UV-5R-Dual-Radio-Black/dp/B007H4VT7A
 -------------------------------------
+### More links and resources
+
 SDR People to follow
 
 https://twitter.com/lemonodor
@@ -179,7 +182,7 @@ Database of flight routes to be used in conjunction with ADS-B data:
 http://www.virtualradarserver.co.uk/FlightRoutes.aspx
 
 -------------------------------------
-Minneapolis Ham repeaters
+### Minneapolis Ham repeaters
 https://www.repeaterbook.com/repeaters/location_search.php?state_id=27&type=city&loc=Minneapolis
 53.37/52.37
 This repeater is a split site system with a transmit power of 75 watts and uses 1/2 wavelength antennas for both receive and transmit. Be sure to remember you will need a 100 Hz CTCSS tone for access. Give it a try!
@@ -194,7 +197,7 @@ Access with a PL tone of 100.0 Hz, a surprisingly wide-coverage single-site mach
 With a PL tone of 114.8 Hz, on the 70cm band, this repeater has been replaced with a Yaesu System Fusion FM/C4FM DR-1 machine.
 -------------------------------------
 
-Minneapolis frequencies:
+### Minneapolis frequencies:
 https://www.radioreference.com/apps/db/?ctid=1336
 https://www.radioreference.com/apps/db/?aid=2541
 
