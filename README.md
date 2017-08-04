@@ -69,13 +69,13 @@ http://jeremybmerrill.com/blog/2016/01/flyover.html
 -------------------------------------
 ### RTL-SDR Dongle (RTL2832U)
 
-Tune Low (MHz): 24 MHz
-Tune Max (MHz): 1766 MHz
-RX Bandwidth (MHz): 3.2 MHz
-ADC Resolution (Bits): 8 bits/sample
-Max sample rate: 3.2 MS/s
-Transmit?: No
-Price: $20
+* Tune Low (MHz): 24 MHz
+* Tune Max (MHz): 1766 MHz
+* RX Bandwidth (MHz): 3.2 MHz
+* ADC Resolution (Bits): 8 bits/sample
+* Max sample rate: 3.2 MS/s
+* Transmit?: No
+* Price: $20
 
 -------------------------------------
 
@@ -99,29 +99,29 @@ Price: $20
 * Garage door openers
 * Remote control cars and drones controller signals
 
-Source: Hobbyists Guide to the RTL-SDR 
+Source: Hobbyists Guide to the RTL-SDR
 https://www.amazon.com/Hobbyists-Guide-RTL-SDR-Software-Defined-ebook/dp/B00KCDF1QI
 
 -------------------------------------
 
 ### Popular SDR Clients
 
-GQRX * Linux / Windows / Mac  / RaspberryPi SDR client
+GQRX - Linux / Windows / Mac  / RaspberryPi SDR client
 http://gqrx.dk/
 http://gqrx.dk/download/gqrx-sdr-for-the-raspberry-pi
 http://gqrx.dk/doc/practical-tricks-and-tips
 
-CubicSDR * Linux / Windows / Mac SDR client
+CubicSDR - Linux / Windows / Mac SDR client
 http://cubicsdr.com/
 http://cubicsdr.com/wp-content/uploads/2015/02/CubicSDR-MainWindow1-Annotated.png
 
-dump1090 * For logging and mapping aircraft ADS-B transponder data (Linux / Mac)
+dump1090 - For logging and mapping aircraft ADS-B transponder data (Linux / Mac)
 https://github.com/mutability/dump1090
 
-SDR# * Windows
+SDR# - Windows
 http://airspy.com/download/
 
-WebSDR * Browser-based remote SDR server browser. Watch signals from around the world
+WebSDR - Browser-based remote SDR server browser. Watch signals from around the world
 http://websdr.org/
 -------------------------------------
 ### Related: Amateur radio (aka HAM radio)
@@ -139,14 +139,15 @@ If you are geeking out over this and want more, get your Amateur Radio (HAM) lic
 
 HAM radio license info
 http://www.arrl.org/getting-your-technician-license
+
 Buy this book to prepare for the exam, and learn everything you need to know:
 https://www.amazon.com/ARRL-Ham-Radio-License-Manual/dp/1625950136/ref=sr_1_1?ie=UTF8&qid=1501256686&sr=8-1&keywords=arrl+3rd+edition
 -------------------------------------
 ### Buy this cheap Chinese radio for $25
-BaoFeng UV-5R Dual Band Two Way Radio
-Covers most Amateur bands
-DON’T: Transmit on Police/Fire/EMS frequencies* Very illegal
-DO: Talk to the International Space Station with a handheld, homemade Yagi antenna
+* BaoFeng UV-5R Dual Band Two Way Radio
+* Covers most Amateur bands
+* DON’T: Transmit on Police/Fire/EMS frequencies* Very illegal
+* DO: Talk to the International Space Station with a handheld, homemade Yagi antenna
 
 BaoFeng UV-5R transceiver (Cheap Ham radio):
 https://www.amazon.com/BaoFeng-UV-5R-Dual-Radio-Black/dp/B007H4VT7A
@@ -225,10 +226,8 @@ Frequency	Tone	Location	County	Call	 Use	Operational status
 444.8750+	DSTR	Minneapolis	Hennepin	KD0JOU	OPEN	ON-AIR
 1283.3000-	DSTR	Minneapolis	Hennepin	KD0JOU	OPEN	ON-AIR
 
-dump1090 snippets:
+dump1090 snippet for logging flights to CSV (courtesy of @schwanksta):
 ***
-# start dump1090
 ./dump1090 --aggressive --interactive --net --net-sbs-port 30003
-# log all planes to a csv
 nc 127.0.0.1 30003 >> airplanes.csv
 ***
