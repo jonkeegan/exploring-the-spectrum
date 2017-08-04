@@ -227,7 +227,9 @@ Frequency	Tone	Location	County	Call	 Use	Operational status
 1283.3000-	DSTR	Minneapolis	Hennepin	KD0JOU	OPEN	ON-AIR
 
 dump1090 snippet for logging flights to CSV (courtesy of @schwanksta):
-***
+```
+# first start dump1090
 ./dump1090 --aggressive --interactive --net --net-sbs-port 30003
+# log data to a CSV
 nc 127.0.0.1 30003 >> airplanes.csv
-***
+```
