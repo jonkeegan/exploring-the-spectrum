@@ -186,6 +186,7 @@ http://www.virtualradarserver.co.uk/FlightRoutes.aspx
 -------------------------------------
 ### Minneapolis Ham repeaters
 https://www.repeaterbook.com/repeaters/location_search.php?state_id=27&type=city&loc=Minneapolis
+```
 53.37/52.37
 This repeater is a split site system with a transmit power of 75 watts and uses 1/2 wavelength antennas for both receive and transmit. Be sure to remember you will need a 100 Hz CTCSS tone for access. Give it a try!
 
@@ -197,6 +198,7 @@ Access with a PL tone of 100.0 Hz, a surprisingly wide-coverage single-site mach
 
 444.30/449.30
 With a PL tone of 114.8 Hz, on the 70cm band, this repeater has been replaced with a Yaesu System Fusion FM/C4FM DR-1 machine.
+```
 -------------------------------------
 
 ### Minneapolis frequencies:
