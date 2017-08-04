@@ -7,8 +7,9 @@ Visual Journalist * Senior Research Fellow
 Tow Center for Digital Journalism
 Columbia University
 
-http://github.com/jonkeegan/exploring-the-spectrum
-http://bit.ly/radio-news
+This repo: http://github.com/jonkeegan/exploring-the-spectrum  
+Slides: http://bit.ly/radio-news-slides  
+Notes/links: http://bit.ly/radio-news  
 Etherpad: https://etherpad.opennews.org/p/SRCCON2017-radio-spectrum
 -------------------------------------
 
